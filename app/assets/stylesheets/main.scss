@@ -35,8 +35,8 @@
 
 #welcome .container {
   display: table-cell;
-  margin: 90px;
-  padding: 90px;
+  margin: 60px;
+  padding: 60px;
 
 }
 
@@ -48,7 +48,7 @@
 #solutions {
   display: table;
   width: 100%;
-  background-color: red;
+  background-color: #a4bce8;
 }
 
 #solutions .container {
@@ -56,4 +56,20 @@
   margin: 20px;
   padding: 20px;
 
+}
+
+#solutions .nav li {
+  display: block;
+  float: left;
+  position: relative;
+  text-align: center;
+
+  .active {
+    background-color: black;
+  }
+}
+
+
+#solutions a {
+  color: white;
 }
