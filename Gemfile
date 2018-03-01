@@ -29,8 +29,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'pry'
 gem 'jquery-rails', '~> 4.3', '>=4.3.1'
-# gem 'bootstrap', '~> 4.0.0.beta2'
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap', '~> 4.0.0'
 gem 'autoprefixer-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
