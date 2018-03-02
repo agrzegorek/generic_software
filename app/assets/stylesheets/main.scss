@@ -50,6 +50,12 @@
   display: table;
   width: 100%;
   background-color: #a4bce8;
+   border: 2px solid red;
+}
+
+#solutions h3 {
+  text-align: center;
+  padding: 10px;
 }
 
 #solutions .container {
@@ -58,6 +64,25 @@
   padding: 20px;
 
 }
+
+#solutions .tab-content {
+  padding: 10px;
+
+  .row {
+    margin: 10px;
+  }
+
+  .product-box {
+    margin: 10px;
+    min-height: 400px;
+  }
+}
+
+#solutions .tab-pane {
+  background-color: #dee0e0; 
+  opacity: 30%;
+}
+
 
 #solutions .nav li {
   display: block;
@@ -68,6 +93,7 @@
   marign: 20px;
   background-color: #dee0e0;
   border-right: 1px solid #a4bce8;
+  border-radius: 4px;
 
   a {
     color: #4179e0;
@@ -79,10 +105,4 @@
   a {
     color: white;
   }
-}
-
-#solutions .products {
-  display: block;
-  position: relative;
-  background-color: white;
 }
