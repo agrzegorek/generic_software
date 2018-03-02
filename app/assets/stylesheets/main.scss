@@ -50,10 +50,9 @@
   display: table;
   width: 100%;
   background-color: #a4bce8;
-   border: 2px solid red;
 }
 
-#solutions h3 {
+#solutions h3, h4 {
   text-align: center;
   padding: 10px;
 }
@@ -105,4 +104,23 @@
   a {
     color: white;
   }
+}
+
+
+// --------------------------------------------
+// Stats 
+// --------------------------------------------
+
+#stats {
+  display: block;
+  width: 100%;
+  background-color: #dee0e0;
+  background-size: cover
+}
+
+#stats .container {
+  display: table-cell;
+  margin: 60px;
+  padding: 60px;
+
 }
