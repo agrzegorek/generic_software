@@ -22,6 +22,11 @@
   vertical-align: middle;
 }
 
+// video {
+//   width: 100%    !important;
+//   // height: 85vh   !important;
+// }
+
 // --------------------------------------------
 // Welcome 
 // --------------------------------------------
@@ -113,14 +118,14 @@
 
 #stats {
   display: block;
-  width: 100%;
-  background-color: #dee0e0;
-  background-size: cover
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), image-url("test.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+  background-size: cover;
+  text-align: center;
 }
 
 #stats .container {
-  display: table-cell;
-  margin: 60px;
   padding: 60px;
 
 }
@@ -129,10 +134,36 @@
 // States
 // --------------------------------------------
 
-
+#states .container {
+  padding: 30px;
+}
 
 #states .carousel-item {
   max-height: 155px;
   max-width: 155px;
   margin: 0 auto; 
+}
+
+
+// --------------------------------------------
+// Client-Stories
+// --------------------------------------------
+
+#client-stories {
+  display: block;
+  background: linear-gradient(rgba(66, 134, 244, 0.8), rgba(66, 134, 244, 0.8)), image-url("discussion.jpg") fixed center center;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+  background-size: cover;
+  text-align: center;
+  color: white;
+
+  p {
+    margin: 30px;
+    font-size: 1.5em;
+  }
+}
+
+#client-stories .container {
+  padding: 60px;
 }
