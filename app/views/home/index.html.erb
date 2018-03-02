@@ -130,7 +130,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm">
-        
+       
       </div>
       <div class="col-sm">
         
@@ -144,9 +144,10 @@
 
 
 
-<section id="states">        
+<section id="states">      
+<!-- Visible on Normal View   -->
   <div class="container d-none d-sm-block">
-    <h4>Genesis Systems, Inc Government Partners</h4>
+    <h4>Our Government Partners</h4>
     <div class="row">
       <div class="col-sm">
         <%= image_tag "CO.png" %>
@@ -161,5 +162,35 @@
         <%= image_tag "DE.png" %>
       </div>
     </div>
+  </div>
+
+  <!-- Visibile on Small View -->
+  <div class="container d-block d-sm-none">
+    <h4>Our Government Partners</h4>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <%= image_tag "CO.png", class:"d-block w-100", alt:"First slide" %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag "TX.png", class:"d-block w-100", alt:"Second slide" %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag "GA.png", class:"d-block w-100", alt:"Third slide" %>
+        </div>
+        <div class="carousel-item">
+          <%= image_tag "DE.png", class:"d-block w-100", alt:"Fourth slide" %>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
   </div>
 </section>
