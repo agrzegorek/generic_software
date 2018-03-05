@@ -118,7 +118,7 @@
 
 #stats {
   display: block;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), image-url("test.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), image-url("test.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
   background-size: cover;
@@ -166,4 +166,24 @@
 
 #client-stories .container {
   padding: 60px;
+}
+
+
+// --------------------------------------------
+// Footer
+// --------------------------------------------
+
+#footer {
+  padding: 90px 30px 30px 30px;
+  background-color: #1c283a;
+  color: white;
+}
+
+#footer .headquarters {
+  font-weight: lighter;
+}
+
+#footer .legal {
+  text-align: center;
+  margin-top: 70px;
 }
