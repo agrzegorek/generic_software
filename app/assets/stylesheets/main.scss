@@ -45,7 +45,7 @@
 #welcome {
   display: block;
   width: 100%;
-  background-color: #dee0e0;
+  background-color: #f7f7f7;
   background-size: cover
 }
 
@@ -65,7 +65,7 @@
 #solutions {
   display: table;
   width: 100%;
-  background-color: #91bcbc;
+  background-color: #DDE4E9;
 }
 
 #solutions h3, h4 {
@@ -78,6 +78,34 @@
   margin: 0 40px 0 40px;
   padding: 20px;
 
+}
+
+#solutions .nav {
+  margin: 0 7% 0 7%;
+}
+
+#solutions .nav li {
+  display: block;
+  float: left;
+  position: relative;
+  text-align: center;
+  padding: 20px 10px 20px 10px;
+  background-color: #EAF2F8;
+  border-right: 1.5px solid #DDE4E9;
+  border-radius: 2px;
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+#solutions li.active {
+  background-color: #5FA1D3;
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 #solutions .tab-content {
@@ -94,32 +122,8 @@
 }
 
 #solutions .tab-pane {
-  background-color: #b8d1d1; 
+  // background-color: #b8d1d1; 
   opacity: 30%;
-}
-
-
-
-#solutions .nav li {
-  display: block;
-  float: left;
-  position: relative;
-  text-align: center;
-  padding: 20px;
-  background-color: #b8d1d1;
-  border-right: 1px solid #91bcbc;
-  border-radius: 2px;
-
-  a {
-    color: black;
-  }
-}
-
-#solutions li.active {
-  background-color: #4179e0;
-  a {
-    color: white;
-  }
 }
 
 
