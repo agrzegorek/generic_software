@@ -6,7 +6,6 @@
   display: table;
   width: 100%;
   height: 85vh;
-  background-color: #91bcbc;
   background-size: cover;
 
 	h1 {
@@ -20,12 +19,24 @@
   padding: 0;
   text-align: center;
   vertical-align: middle;
+
 }
 
-// video {
-//   width: 100%    !important;
-//   // height: 85vh   !important;
-// }
+#hero .video {
+ position: fixed;
+ top: 50%; left: 50%;
+ z-index: -100;
+ min-width: 100%;
+ min-height: 100%;
+ width: auto;
+ height: auto;
+ transform: translate(-50%, -50%);
+}
+
+#hero .intro {
+  text-align: center;
+  color: white;
+}
 
 // --------------------------------------------
 // Welcome 
@@ -54,7 +65,7 @@
 #solutions {
   display: table;
   width: 100%;
-  background-color: #a4bce8;
+  background-color: #91bcbc;
 }
 
 #solutions h3, h4 {
@@ -64,7 +75,7 @@
 
 #solutions .container {
   display: table-cell;
-  margin: 20px;
+  margin: 0 40px 0 40px;
   padding: 20px;
 
 }
@@ -83,9 +94,10 @@
 }
 
 #solutions .tab-pane {
-  background-color: #dee0e0; 
+  background-color: #b8d1d1; 
   opacity: 30%;
 }
+
 
 
 #solutions .nav li {
@@ -94,13 +106,12 @@
   position: relative;
   text-align: center;
   padding: 20px;
-  marign: 20px;
-  background-color: #dee0e0;
-  border-right: 1px solid #a4bce8;
-  border-radius: 4px;
+  background-color: #b8d1d1;
+  border-right: 1px solid #91bcbc;
+  border-radius: 2px;
 
   a {
-    color: #4179e0;
+    color: black;
   }
 }
 
@@ -133,6 +144,9 @@
 // --------------------------------------------
 // States
 // --------------------------------------------
+#states {
+  background-color: white;
+}
 
 #states .container {
   padding: 30px;
