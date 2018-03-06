@@ -81,7 +81,7 @@
 }
 
 #solutions .nav {
-  margin: 0 7% 0 7%;
+  margin: 2% 7% 0 7%;
 }
 
 #solutions .nav li {
@@ -89,7 +89,7 @@
   float: left;
   position: relative;
   text-align: center;
-  padding: 20px 10px 20px 10px;
+  padding: 30px 10px 30px 10px;
   background-color: #EAF2F8;
   border-right: 1.5px solid #DDE4E9;
   border-radius: 2px;
@@ -109,15 +109,20 @@
 }
 
 #solutions .tab-content {
-  padding: 10px;
+  margin: 0 7% 0 7%;
+  border: 1px solid red; 
 
-  .row {
-    margin: 10px;
+  h3 {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
+    background-color: #EAF2F8;
   }
 
   .product-box {
-    margin: 10px;
+    margin: 14px;
     min-height: 400px;
+    background-color: #EAF2F8;
+    border: 1px solid green;
   }
 }
 
