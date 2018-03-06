@@ -68,7 +68,7 @@
   background-color: #DDE4E9;
 }
 
-#solutions h3, h4 {
+#solutions h3, h5 {
   text-align: center;
   padding: 10px;
 }
@@ -101,7 +101,7 @@
 }
 
 #solutions li.active {
-  background-color: #5FA1D3;
+  background-color: #3B6584;
   a {
     color: white;
     text-decoration: none;
@@ -110,27 +110,34 @@
 
 #solutions .tab-content {
   margin: 0 7% 0 7%;
-  border: 1px solid red; 
 
   h3 {
     margin: 10px 0 10px 0;
     padding: 10px 0 10px 0;
     background-color: #EAF2F8;
+    color: #3B6584;
   }
 
   .product-box {
     margin: 14px;
-    min-height: 400px;
+    min-height: 370px;
     background-color: #EAF2F8;
-    border: 1px solid green;
+    text-align: center;
   }
 }
 
-#solutions .tab-pane {
-  // background-color: #b8d1d1; 
-  opacity: 30%;
+#solutions .product-icon {
+  margin: 30px;
 }
 
+#solutions .product-button {
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+#solutions .product-description {
+  font-size: 0.45em;
+}
 
 // --------------------------------------------
 // Stats 
@@ -167,6 +174,9 @@
   margin: 0 auto; 
 }
 
+#states h4 {
+  text-align: center;
+}
 
 // --------------------------------------------
 // Client-Stories
@@ -181,7 +191,7 @@
   text-align: center;
   color: white;
 
-  p {
+  .client-quote {
     margin: 30px;
     font-size: 1.5em;
   }
@@ -200,6 +210,11 @@
   padding: 90px 30px 30px 30px;
   background-color: #1c283a;
   color: white;
+}
+
+#footer h5 {
+  text-align: left;
+  padding: 0;
 }
 
 #footer .headquarters {
