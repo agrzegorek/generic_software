@@ -10,4 +10,5 @@ jQuery(document).ready(function( $ ) {
 		$("div.tab-pane" + selectedTab).addClass("in show active");
 	});
 
+
 });
