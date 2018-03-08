@@ -31,6 +31,7 @@ gem 'pry'
 gem 'jquery-rails', '~> 4.3', '>=4.3.1'
 gem 'bootstrap', '~> 4.0.0'
 gem 'autoprefixer-rails'
+gem 'wow-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

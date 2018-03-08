@@ -11,9 +11,10 @@
 // about supported directives.
 //
 //= require jquery
+//= require wow.min
 //= require popper
 //= require jquery_ujs
 //= require rails-ujs
-//= require turbolinks
+//= xxxrequire turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
