@@ -259,7 +259,34 @@
   outline: none;
 }
 
-.back-to-top:hover {
-  background: orange;
-  color: #fff;
+
+
+// --------------------------------------------
+// Contact Us
+// --
+a.contact-us-link:hover {
+  text-decoration: none;
+  #contact-us {
+      transition: background .3s ease-in;
+      background: #cc8400;
+  }
+}
+
+#contact-us {
+  display: table;
+  width: 100%;
+  color: black;
+  background-color: orange;
+  background-size: cover;
+  transition: background .3s ease-out;
+}
+
+#contact-us .container {
+  display: table-cell;
+  margin: 60px;
+  padding: 30px;
+    h3 {
+    text-align: center;
+    color: white;
+  }
 }
