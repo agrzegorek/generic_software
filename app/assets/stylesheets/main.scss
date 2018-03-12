@@ -262,7 +262,7 @@
 
 
 // --------------------------------------------
-// Contact Us
+// Contact Us Bar & Modal
 // --
 a.contact-us-link:hover {
   text-decoration: none;
@@ -289,4 +289,15 @@ a.contact-us-link:hover {
     text-align: center;
     color: white;
   }
+}
+#contact-us .modal-header {
+  margin-bottom: 10px;
+}
+
+#contact-us .md-form {
+  margin-top: -20px;
+}
+
+#contact-us .modal-footer {
+  margin-top: -40px;
 }
