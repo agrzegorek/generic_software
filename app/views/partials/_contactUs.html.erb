@@ -3,70 +3,72 @@
 		<div class="container">
 			<h3 class="display-4 wow fadeInUp">Request A Demo</h3>
 		</div>
+	</section>	
+</a>
 
-		<!-- =========Contact Us Modal============ -->
-		<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	    <div class="modal-dialog" role="document">
-	        <div class="modal-content">
-	        	<!-- Modal Title -->
-	            <div class="modal-header text-center">
-	                <h4 class="modal-title w-100 font-weight-bold">Let's get started!</h4>
-	                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	                    <span aria-hidden="true">&times;</span>
-	                </button>
+<!-- =========Contact Us Modal============ -->
+<div class="modal fade contact-modal" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        	<!-- Modal Title -->
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Let's get started!</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+            	<form>
+	            	<!-- Name Field -->
+	                <div class="md-form" >
+		                <i class="fa fa-user" color="orange"></i> Name
+		                 <input type="text" id="formName" class="form-control">
+		                 <label data-error="wrong" data-success="right" for="formName"></label>
+	                </div>
+
+	                <!-- Company -->
+	                <div class="md-form">
+	                    <i class="fas fa-building" color="orange"></i> Company / Organization
+	                    <input type="text" id="formOrg" class="form-control">
+	                    <label data-error="wrong" data-success="right" for="formOrg"></label>
+	                </div>
+
+	                <!-- Email -->
+	                <div class="md-form">
+	                    <i class="fa fa-envelope" color="orange"></i> Email
+	                    <input type="email" id="formEmail" class="form-control" >
+	                    <label data-error="wrong" data-success="right" for="formEmail"></label>
+	                </div>
+
+	                <!-- Phone -->
+	                <div class="md-form">
+	                    <i class="fa fa-phone" color="orange"></i> Phone Number
+	                    <input type="text" id="formPhone" class="form-control">
+	                    <label data-error="wrong" data-success="right" for="formPhone"></label>
+	                </div>
+
+	                <!-- Message -->
+	                <div class="md-form">
+	                    <i class="fas fa-pencil-alt" color="orange"></i> Message
+	                    <textarea type="text" id="formMessage" class="md-textarea form-control" rows="4" placeholder="Tell us what you need..."></textarea>
+	                    <label data-error="wrong" data-success="right" for="formMessage"></label>
+	                </div>
 	            </div>
-
-	            <!-- Modal Body -->
-	            <div class="modal-body">
-	            	<form>
-		            	<!-- Name Field -->
-		                <div class="md-form" >
-			                <i class="fa fa-user" color="orange"></i> Name
-			                 <input type="text" id="formName" class="form-control">
-			                 <label data-error="wrong" data-success="right" for="formName"></label>
-		                </div>
-
-		                <!-- Company -->
-		                <div class="md-form">
-		                    <i class="fas fa-building" color="orange"></i> Company / Organization
-		                    <input type="text" id="formOrg" class="form-control">
-		                    <label data-error="wrong" data-success="right" for="formOrg"></label>
-		                </div>
-
-		                <!-- Email -->
-		                <div class="md-form">
-		                    <i class="fa fa-envelope" color="orange"></i> Email
-		                    <input type="email" id="formEmail" class="form-control" >
-		                    <label data-error="wrong" data-success="right" for="formEmail"></label>
-		                </div>
-
-		                <!-- Phone -->
-		                <div class="md-form">
-		                    <i class="fa fa-phone" color="orange"></i> Phone Number
-		                    <input type="text" id="formPhone" class="form-control">
-		                    <label data-error="wrong" data-success="right" for="formPhone"></label>
-		                </div>
-
-		                <!-- Message -->
-		                <div class="md-form">
-		                    <i class="fas fa-pencil-alt" color="orange"></i> Message
-		                    <textarea type="text" id="formMessage" class="md-textarea form-control" rows="4" placeholder="Tell us what you need..."></textarea>
-		                    <label data-error="wrong" data-success="right" for="formMessage"></label>
-		                </div>
-		            </div>
-		            
-		            <!-- Submit Button -->
-		            <div class="modal-footer d-flex justify-content-center">
-		            	<button class='btn btn-warning' type='submit' value='submit'>
-	   						<i class='far fa-paper-plane' color="dark"> </i> Send
-						</button>
-		            </div>
-	            </form>
-	        </div>
-	    </div>
-	</div>
+	            
+	            <!-- Submit Button -->
+	            <div class="modal-footer d-flex justify-content-center">
+	            	<button class='btn btn-warning' type='submit' value='submit'>
+   						<i class='far fa-paper-plane' color="dark"> </i> Send
+					</button>
+	            </div>
+	            
+            </form>
+        </div>
+    </div>
+</div>
 
 		
 
-	</section>
-</a>
+

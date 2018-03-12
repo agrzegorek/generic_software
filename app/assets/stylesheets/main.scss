@@ -38,6 +38,14 @@
   color: white;
 }
 
+#hero .modal-button {
+  opacity: 0.8;
+  margin: 30px;
+  padding: 10px 40px 10px 40px;
+  font-weight: bold;
+  color: white;
+}
+
 // --------------------------------------------
 // Welcome 
 // --------------------------------------------
@@ -290,14 +298,14 @@ a.contact-us-link:hover {
     color: white;
   }
 }
-#contact-us .modal-header {
+.contact-modal .modal-header {
   margin-bottom: 10px;
 }
 
-#contact-us .md-form {
+.contact-modal .md-form {
   margin-top: -20px;
 }
 
-#contact-us .modal-footer {
+.contact-modal .modal-footer {
   margin-top: -40px;
 }
