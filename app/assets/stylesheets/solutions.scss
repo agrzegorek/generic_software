@@ -1,0 +1,72 @@
+// ===============================
+// Banner
+// ===============================
+
+#solutions-banner {
+  display: table;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+ 
+}
+
+#solutions-banner .banner-container {
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  background-size: cover;
+  background:  linear-gradient(
+      rgba(66, 134, 244, 0.8), 
+      rgba(66, 134, 244, 0.8)
+    ), image-url("medical_records.jpg") fixed center center;
+  background-position-y: bottom;
+   transition: all .5s;
+
+}
+
+$zoomAmount: 1.1;
+
+#solutions-banner:hover .banner-container,
+#solutions-banner:focus .banner-container {
+	transform: scale($zoomAmount);
+
+	.banner-text { 
+    	transform: scale(1/$zoomAmount) //offset scale effect
+    }
+}
+
+#solutions-banner .banner-text { 
+	text-align: center;
+	vertical-align: middle;
+	transition: all .5s;
+}
+
+//===============================
+//Products Section
+//===============================
+
+#solutions-all {
+  display: table;
+  width: 100%;
+}
+
+#solutions-all h2 {
+  text-align: center;
+  margin: 20px;
+
+}
+
+#solutions-all .container {
+  display: table-cell;
+  margin: 20px;
+  padding: 0 80px 0 80px;
+  border: 1px solid red;
+}
+
+#solutions-all .solutions-box {
+  margin: 20px;
+  border: 1px solid blue;
+}
