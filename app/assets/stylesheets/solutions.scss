@@ -58,30 +58,34 @@ $zoomAmount: 1.1;
 #solutions-all h2 {
   text-align: center;
   margin: 20px;
-  font-weight: lighter;
+  // font-weight: lighter;
   font-size: 3em;
+}
 
+#solutions-all .solutions-intro p {
+  font-size: 1.2em;
+  text-align: justify;
 }
 
 #solutions-all .container {
   display: table-cell;
   margin: 20px;
   padding: 0 5% 0 5%;
-  border: 1px solid red;
+  background: linear-gradient(to right,rgba(66, 134, 244, 0.2), rgba(66, 134, 244,0.1), rgba(66, 134, 244,0.2));
 }
 
 #solutions-all .solution-card-area {
-  border: 1px solid green;
-  padding: 20px; 
+  margin: 0;
 }
 
 #solutions-all .solutions-card {
-  margin: 3%;
+  margin: 2%;
   padding: 20px;
   min-width: 250px;
   border: 2px solid #3B6584;
   border-top: 10px solid #3B6584;
   transition: all .25s;
+  background-color: white;
 }
 // Hover css
 #solutions-all .card-shadow {
