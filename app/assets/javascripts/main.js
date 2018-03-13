@@ -29,4 +29,10 @@ $(document).ready(function(){
 	  return false;
 	});
 
+
+	// Solutions Card Hover
+	$('.solutions-card').hover(function(){
+		$(this).toggleClass("card-shadow");
+	});
+
 });
