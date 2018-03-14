@@ -97,11 +97,25 @@ $zoomAmount: 1.1;
 .history-timeline .moved {
 	width: 100;
 	padding: 6%;
-	background-color: pink;
+	background: linear-gradient(to right, rgba(66, 134, 244, 0.1), rgba(66, 134, 244, 0.05), rgba(66, 134, 244, 0.1));
+
+}
+
+.moved .moved-image-area {
+	text-align: center;
+	padding: 0;
+	border: 2px solid red;
+	
+	.fa-home {
+		margin: 0;
+		vertical-align: top;
+		border: 2px solid yellow;
+	}
 }
 .history-timeline .expansion {
 	width: 100;
 	padding: 6%;
+	background: linear-gradient(to right, rgba(248,148,6, 0.2), rgba(248,148,6, 0.15), rgba(248,148,6, 0.2));
 }
 
 .history-timeline .pin-1 {
@@ -116,6 +130,24 @@ $zoomAmount: 1.1;
 	animation-delay: 0.5s;
 }
 
-.history-timeline .fa-map {
-	// border: 2px solid red;
+.history-timeline .expansion-map-area {
+	text-align: center;
+	margin: 25px 0 45px 0;
+}
+
+.history-timeline .expansion-map {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.history-timeline .birthday {
+	width: 100%;
+	padding: 6%; 
+	background: linear-gradient(to right, rgba(66, 134, 244, 0.1), rgba(66, 134, 244, 0.05), rgba(66, 134, 244, 0.1));
+
+}
+
+.birthday .birthday-image-area {
+	text-align: center;
 }
