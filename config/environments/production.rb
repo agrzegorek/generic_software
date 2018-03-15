@@ -85,4 +85,7 @@ Rails.application.configure do
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
+
+  RAILS_MASTER_KEY="c4f166984415e051f339226216346faf"
+  GOOGLE_API_KEY="AIzaSyA31j7aTS5v0jQaFugN_Rx_rUaZvh6qHXU"
 end

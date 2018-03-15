@@ -38,3 +38,72 @@ $zoomAmount: 1.1;
 	vertical-align: middle;
 	transition: all .5s;
 }
+
+// ===============================
+// Contact Main
+// ===============================
+
+#contact-main {
+  display: table;
+  background-size: cover;
+  width: 100%;
+  background: linear-gradient(to right, rgba(66, 134, 244, 0.1), rgba(66, 134, 244, 0.05), rgba(66, 134, 244, 0.1));
+}
+
+#contact-main .container {
+  display: table-cell;
+  padding: 5%;
+  width: 100%;
+}
+
+#contact-main .contact-main-text {
+  text-align: center;
+ }
+
+#contact-main .contact-main-form {
+  text-align: center;
+
+  .contact-us-form .form-group {
+    margin: 0;
+  }
+
+  .contact-form-submit {
+    margin-top: 20px;
+  }
+
+}
+
+// ===============================
+// Locations
+// ===============================
+
+#locations #map {
+  height: 400px;
+  width: 100%;
+  z-index: 1;
+}
+
+#locations {
+  display: table;
+  background-size: cover;
+  width: 100%;
+  background-color: pink;
+}
+
+#locations .container {
+  display: table-cell;
+  padding: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+#locations .location-card {
+  margin: 5px;
+  background-color: white;
+  border: 2px solid blue;
+
+  p {
+    text-align: left;
+  }
+}
+
