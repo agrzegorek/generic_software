@@ -2,93 +2,10 @@
 // Banner
 // ===============================
 
-#solutions-banner {
-  display: table;
-  width: 100%;
-  height: 50vh;
-  overflow: hidden;
-}
-
-#solutions-banner .banner-container {
-  display: table-cell;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  background-size: cover;
+.solutions-banner {
   background:  linear-gradient(
       rgba(66, 134, 244, 0.8), 
       rgba(66, 134, 244, 0.8)
     ), image-url("medical_records.jpg") fixed center center;
   background-position-y: bottom;
-   transition: all .5s;
-
-}
-
-$zoomAmount: 1.1;
-
-#solutions-banner:hover .banner-container,
-#solutions-banner:focus .banner-container {
-	transform: scale($zoomAmount);
-
-	.banner-text { 
-    	transform: scale(1/$zoomAmount) //offset scale effect
-    }
-}
-
-#solutions-banner .banner-text { 
-	text-align: center;
-	vertical-align: middle;
-	transition: all .5s;
-}
-
-//===============================
-//Products Section
-//===============================
-
-#solutions-all {
-  display: table;
-  width: 100%;
-  padding: 20px;
-  background-size: cover;
-  background: linear-gradient(to right,rgba(66, 134, 244, 0.1), rgba(66, 134, 244, 0.05), rgba(66, 134, 244, 0.1));
-  color: #3B6584;
-}
-
-#solutions-all h2 {
-  text-align: center;
-  margin: 10px;
-}
-
-#solutions-all .solutions-intro p {
-  text-align: justify;
-}
-
-#solutions-all .container {
-  display: table-cell;
-  margin: 40px;
-  padding: 0 5% 0 5%;
-  width: 100%;
-  
-}
-
-#solutions-all .solution-card-area {
-  margin: 0;
-  padding: 0 3%;
-}
-
-#solutions-all .solutions-card {
-  margin: 2%;
-  padding: 20px;
-  min-width: 250px;
-  border: 2px solid #3B6584;
-  border-top: 10px solid #3B6584;
-  transition: all .25s;
-  background-color: white;
-}
-// Hover css
-#solutions-all .card-shadow {
-  transform: scale(1.01);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
 }

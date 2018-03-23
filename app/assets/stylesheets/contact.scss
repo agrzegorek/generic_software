@@ -2,45 +2,11 @@
 // Banner
 // ===============================
 
-#contact-banner {
-  display: table;
-  width: 100%;
-  height: 50vh;
-  overflow: hidden; 
-}
-
-#contact-banner .banner-container {
-  display: table-cell;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  background-size: cover;
+.contact-banner {
   background:  linear-gradient(
       rgba(66, 134, 244, 0.6), 
       rgba(66, 134, 244, 0.6)
     ), image-url("call-us2.jpg") no-repeat fixed bottom center;
-  transition: all .5s;
-
-}
-
-$zoomAmount: 1.1;
-
-#contact-banner:hover .banner-container,
-#contact-banner:focus .banner-container {
-	transform: scale($zoomAmount);
-
-	.banner-text { 
-    	transform: scale(1/$zoomAmount) //offset scale effect
-    }
-}
-
-#contact-banner .banner-text { 
-  font-weight: bold;
-	text-align: center;
-	vertical-align: middle;
-	transition: all .5s;
 }
 
 // ===============================
