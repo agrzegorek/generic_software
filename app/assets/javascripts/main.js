@@ -31,8 +31,8 @@ $(document).ready(function(){
 
 
 	// Solutions Card Hover
-	$('.solutions-card').hover(function(){
-		$(this).toggleClass("card-shadow");
+	$('.product-image').hover(function(){
+		$(this).toggleClass("product-image-hover");
 	});
 
 
