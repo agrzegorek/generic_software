@@ -9,3 +9,88 @@
     ), image-url("medical_records.jpg") fixed center center;
   background-position-y: bottom;
 }
+
+#solutions-intro {
+  display: table;
+  width: 100%;
+  background-size: cover;
+  padding: 50px;
+}
+
+#solutions-all {
+
+  display: table;
+  width: 100%;
+  background-size: cover;
+}
+
+#solutions-all .solutions-all-box {
+  padding: 0;
+  margin: 0;
+}
+
+#solutions-all .product-content {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+
+  h2  {
+    margin-top: 40px;
+    // text-align: center;
+  }
+}
+
+#solutions-all .product-content .row {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#solutions-all .vital-records {
+  background-color: #DCDCDC;
+}
+
+.vital-records .product-image {
+  background: image-url("medical_records.jpg") no-repeat;
+}
+
+#solutions-all .data-hosting {
+
+  background-color: #C1C1C1;
+}
+
+.data-hosting .product-image {
+  background: image-url("servers.jpg") no-repeat;
+}
+
+#solutions-all .technical-support {
+  background-color: #DCDCDC;
+}
+
+.technical-support .product-image {
+  background: image-url("it-support.jpg") no-repeat;
+}
+
+#solutions-all .affiliates {
+  background-color: #C1C1C1;
+}
+
+.affiliates .product-image {
+  background: image-url("network.jpg") no-repeat;
+
+}
+
+#solutions-all .product-text {
+  padding: 2% 10%;
+}
+
+#solutions-all .product-image {
+  height: 50vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-size: cover;
+  // background-position-y: bottom;
+}
+
