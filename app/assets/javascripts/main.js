@@ -30,9 +30,9 @@ $(document).ready(function(){
 	});
 
 
-	// Solutions Card Hover
-	$('.product-image').hover(function(){
-		$(this).toggleClass("product-image-hover");
+	// Module Card Hover
+	$('.module-card').hover(function(){
+		$(this).toggleClass("card-shadow");
 	});
 
 
