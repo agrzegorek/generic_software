@@ -1,0 +1,35 @@
+// banner
+.vital-records-banner {
+  background:  linear-gradient(
+      rgba(66, 134, 244, 0.6), 
+      rgba(66, 134, 244, 0.6)
+    ), image-url("vital-records.jpg") no-repeat fixed center center;
+}
+
+// mini navbar
+.navbar-mini {
+	// min-height: 30px;
+	padding: 0 15%;
+	min-height: 30px;
+	a {
+		font-size: 0.8em;
+	}
+}
+
+// overview
+#vr-overview {
+	min-height: 400px;
+	background-color: pink;
+}
+
+// features
+#vr-features {
+	min-height: 400px;
+	background-color: #fff;
+}
+
+// modules
+#vr-modules {
+	min-height: 400px;
+	background-color: gray;
+}

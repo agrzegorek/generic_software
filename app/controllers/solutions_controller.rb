@@ -29,6 +29,7 @@ class SolutionsController < ApplicationController
   end
 
   def security
+    render :security
   end
 
   def interoperability
