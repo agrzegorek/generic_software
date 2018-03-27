@@ -11,7 +11,7 @@
 </section>
 
 <!-- mini nav -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-mini">
+<nav class="navbar navbar-expand-md navbar-light bg-light navbar-mini">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mini" aria-controls="navbar-mini" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -42,23 +42,54 @@
 </nav>
 
 <section id="vr-overview">
-	<div class="container" style="border: 2px solid red">
+	<div class="container">
 		<h2 class="display-4 vr-title">Overview</h2>
 		<div class="row">
-			<div class="col-md-7" style="border: 2px solid red">
+			<div class="col-md-7">
 				<h3>TEXT</h3>
 				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
 				<ul>
 					<li>Configuration</li>
 						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<li>Interoperability</li>
+					<li><a href="/solutions/vital-records/interoperability">Interoperability</a></li>
 						<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-					<li>Security &#38; Compliance</li>
+					<li><a href="/solutions/vital-records/security-and-compliance">Security &#38; Compliance</a></li>
 					<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</ul>
 			</div>
-			<div class="col-md-5 sock" style="border: 2px solid blue;">
-				<h3>Pic</h3>
+			<div class="col-md image-area">
+				<%= image_tag("vr-overview") %>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="how_it_works">
+	<div class="container">
+		<h2 class="display-4 vr-title">How It Works</h2>
+		<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+		<div class="row">
+			<div class="col-sm text-center">
+				<i class="fas fa-cube fa-6x"></i>
+				<p>Core <br>
+					
+				</p>
+			</div>
+			<div class="col-sm text-center">
+				<i class="fas fa-cubes fa-6x"></i>
+				<p>Build</p>
+			</div>
+			<div class="col-sm text-center">
+				<i class="fas fa-wrench fa-6x"></i>
+				<p>Customize</p>
+			</div>
+			<div class="col-sm text-center">
+				<i class="fas fa-dolly fa-6x"></i>
+				<p>Implement</p>
+			</div>
+			<div class="col-sm text-center">
+				<i class="far fa-thumbs-up fa-6x"></i>
+				<p>Success</p>
 			</div>
 		</div>
 	</div>
@@ -69,7 +100,7 @@
 		<h2 class="display-4 vr-title">Features</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
 		<div class="row">
-			<div class="col-md" style="border: 2px solid red">
+			<div class="feature-list col-md">
 				<ul class="fa-ul">
 					<li><span class="fa-li"><i class="fas fa-check" style="color: green;"></i></span>A</li>
 					<li><span class="fa-li"><i class="fas fa-check" style="color: green;"></i></span>B</li>
@@ -79,8 +110,8 @@
 					<li><span class="fa-li"><i class="fas fa-check" style="color: green;"></i></span>F</li>
 				</ul>
 			</div>
-			<div class="col-md-1"></div>
-			<div class="col-md" style="border: 2px solid red">
+			<div class="col-md-2"></div>
+			<div class="feature-list  col-md" >
 				<ul class="fa-ul">
 					<li><span class="fa-li"><i class="fas fa-check" style="color: green;"></i></span>A</li>
 					<li><span class="fa-li"><i class="fas fa-check" style="color: green;"></i></span>B</li>
@@ -172,18 +203,18 @@
 		<h2 class="display-4 vr-title">FAQ</h2>
 		<div class="row">
 			<!-- Question tabs -->
-			<div class="nav flex-column nav-pills col-md-4" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+			<div class="nav flex-column nav-pills col-md-5" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-			  <a class="nav-link active" id="v-question-1-tab" data-toggle="pill" href="#v-question-1" role="tab" aria-controls="v-question-1" aria-selected="true">Question 1- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?</a>
+			  <a class="nav-link active wow fadeInUp" id="v-question-1-tab" data-toggle="pill" href="#v-question-1" role="tab" aria-controls="v-question-1" aria-selected="true">Question 1- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?</a>
 
-			  <a class="nav-link" id="v-question-2-tab" data-toggle="pill" href="#v-question-2" role="tab" aria-controls="v-question-2" aria-selected="false">Question 2- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?</a>
+			  <a class="nav-link wow fadeInUp" id="v-question-2-tab" data-toggle="pill" href="#v-question-2" role="tab" aria-controls="v-question-2" aria-selected="false">Question 2- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?</a>
 
-			  <a class="nav-link" id="v-question-3-tab" data-toggle="pill" href="#v-question-3" role="tab" aria-controls="v-question-3" aria-selected="false">Question 3- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?</a>
+			  <a class="nav-link wow fadeInUp" id="v-question-3-tab" data-toggle="pill" href="#v-question-3" role="tab" aria-controls="v-question-3" aria-selected="false">Question 3- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?</a>
 
-			  <a class="nav-link" id="v-question-4-tab" data-toggle="pill" href="#v-question-4" role="tab" aria-controls="v-question-4" aria-selected="false">Question 4- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?</a>
+			  <a class="nav-link wow fadeInUp" id="v-question-4-tab" data-toggle="pill" href="#v-question-4" role="tab" aria-controls="v-question-4" aria-selected="false">Question 4- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor?</a>
 			</div>
 			<!-- Answers -->
-			<div class="tab-content col-md" id="v-pills-tabContent">
+			<div class="tab-content col-md wow fadeInUp" id="v-pills-tabContent">
 
 			  <div class="tab-pane fade show active" id="v-question-1" role="tabpanel" aria-labelledby="v-question-1-tab">Answer 1 - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
 
