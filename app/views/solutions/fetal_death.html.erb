@@ -1,5 +1,74 @@
-<div class="container" style="background-color: cyan;">
+<% content_for :head do %>
+	<title></title>
+	<meta name="description" content="">
+<% end %>
 
-<h1 class="display-1">TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST <br> TEST TEST TEST TEST TEST TEST TEST TEST TEST TEST <br>TEST TEST <br>TEST <br> TEST </h1>
+<!-- Banner -->
+<section id="module-banner">
+	<div class="module-banner-container fetal-death-banner">
+		<h1 class="module-banner-text display-3"><strong>Module:</strong> Fetal Death</h1>
+	</div>
 
-</div>
+</section>
+
+<!-- Mini Nav -->
+<%= render "partials/module_mini_nav" %>
+
+<section id="overview" class="fetal-death">
+	<div class="container">
+		<h2 class="display-4 vr-title">Overview</h2>
+		<h3>Subtitle</h3>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+		<ul>
+			<li>Thing 1</li>
+				<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<li>Thing 2</li>
+				<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<li>Thing 3</li>
+				<p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</ul>
+	</div>
+</section>
+
+<section id="features" class="fetal-death">
+	<div class="container">
+		<h2 class="display-4 vr-title">Features</h2>
+		<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+		<div class="row">
+			<div class="col-md manager wow fadeInLeft">
+				<h4 class="display-4 text-center">Manager</h4>
+				<div class="fa-7x text-center">
+				  <span class="fa-layers fa-fw">
+				    <i class="fas fa-desktop" ></i>
+				    <i class=" fas fa-id-card" data-fa-transform="shrink-10 up-3 left-3"></i>
+				    <i class="fas fa-chart-pie" data-fa-transform="shrink-11 right-3.5 up-0.5"></i>
+				  </span>
+				</div> 
+				<p style="font-weight: 200;">Consectetur adipiscing elit, sed do eiusmod tempor incididuntLorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntLorem ipsum dolor sit amet. </p>
+				<ul class="fa-ul">
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>Lorem ipsum dolor sit amet, amet</li>
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</li>
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>Consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
+				</ul>
+			</div>
+			<div class="col-md facility wow fadeInRight">
+				<h4 class="display-4 text-center">Facility</h4>
+				<div class="fa-7x text-center">
+					<i class="far fa-hospital"></i>
+				</div> 
+				<p style="font-weight: 200;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididuntLorem ipsum dolor sit amet.</p>
+				<ul class="fa-ul">
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>Lorem ipsum dolor sit amet, amet</li>
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</li>
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
+					<li><span class="fa-li"><i class="fas fa-check" style="color: white;"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<%= render "partials/module_cards" %>

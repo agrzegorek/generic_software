@@ -13,6 +13,7 @@
   color: white;
   background-size: cover;
   transition: all .5s;
+  filter:brightness(135%);
 }
 
 .module-banner-text { 
@@ -20,23 +21,65 @@
   padding-left: 15%;
   vertical-align: middle;
   transition: all .5s;
+  font-weight: 300; 
 
 }
 
-.module-banner-container {
-	background: image_url("lodyas.png") repeat;
-	filter:brightness(130%);
-}
-
-
-#overview.birth {
+#features {
 	width: 100%;
-	min-height: 300px; 
-	background-color: pink;
+	background-color: #BCE3EC;
+	padding-bottom: 50px;
+	color: #475558;
+
+	li {
+		padding: 6px 0;
+	}
 }
 
-#features.birth {
-	width: 100%;
-	min-height: 300px; 
-	background-color: blue;
+#features .manager {
+	color: #fff;
+	margin-right: 10px;
+	padding: 20px 20px;
+	background-color: #385B71;
+	// background-color: #E6F4F8;
+	// border: 5px solid #fff;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#features .facility {
+	color: #fff;
+	margin-left: 10px;
+	padding: 20px 20px;
+	background-color: #383F71;
+	// border: 5px solid #fff;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+
+.birth-banner {
+	background: linear-gradient(to right, rgba(66, 134, 244, 0.05),rgba(66, 134, 244, 0.5)), image_url("lodyas.png") repeat;
+}
+
+.death-banner {
+	background: linear-gradient(to right, rgba(106, 56, 113, 0.05),rgba(106, 56, 113, 0.5)), image_url("lodyas.png") repeat;
+}
+
+.marriage-banner {
+	background: linear-gradient(to right, rgba(199, 0, 57, 0.05),rgba(199, 0, 57, 0.5)), image_url("lodyas.png") repeat;
+}
+
+.divorce-banner {
+	background: linear-gradient(to right, rgba(51, 255, 87, 0.05),rgba(51, 255, 87, 0.5)), image_url("lodyas.png") repeat;
+}
+
+.fetal-death-banner {
+	background: linear-gradient(to right, rgba(51, 255, 189, 0.05),rgba(51, 255, 189, 0.5)), image_url("lodyas.png") repeat;
+}
+
+.ITOP-banner {
+	background: linear-gradient(to right, rgba(192, 185, 220, 0.05),rgba(192, 185, 220, 0.5)), image_url("lodyas.png") repeat;
+}
+
+.fee-banner {
+	background: linear-gradient(to right, rgba(147, 210, 225, 0.05),rgba(147, 210, 225, 0.5)), image_url("lodyas.png") repeat;
 }

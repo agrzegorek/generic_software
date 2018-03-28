@@ -23,13 +23,13 @@ h2.vr-title {
 }
 
 // overview
-#vr-overview {
+#overview {
 	margin: 0;
 	padding-bottom: 20px;
 	background: linear-gradient(to right,rgba(66, 134, 244, 0.1), rgba(66, 134, 244, 0.05), rgba(66, 134, 244, 0.1));
 }
 
-#vr-overview .image-area {
+#overview .vr-image-area {
 	width: 100%;
 	padding: 0;
 	overflow: hidden;
@@ -40,8 +40,6 @@ h2.vr-title {
 	}
 }
 
-#vr-features .feature-list {
-}
 
 #how_it_works {
 	width: 100%;
