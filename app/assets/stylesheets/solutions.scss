@@ -10,28 +10,25 @@
   background-position-y: bottom;
 }
 
-#solutions-intro {
-  display: table;
+#solutions-intro, #affiliates-intro {
   width: 100%;
   background-size: cover;
   padding: 50px;
 }
 
-#solutions-all {
-
-  display: table;
+#solutions-all, #affiliates-all {
   width: 100%;
   background-size: cover;
 }
 
-#solutions-all .solutions-all-box {
+#solutions-all .solutions-all-box, #affiliates-all .affiliates-all-box {
   padding: 0;
   margin: 0;
 }
 
-#solutions-all .product-content {
+#solutions-all, #affiliates-all .product-content {
   width: 100%;
-  height: 50vh;
+  height: 50%;
   overflow: hidden;
 
   h2  {
@@ -39,15 +36,19 @@
     font-weight: lighter;
     font-size: 3em;
   }
+
+  a {
+    margin-bottom: 2px;
+  }
 }
 
-#solutions-all .product-content .row {
+#solutions-all .product-content .row, #affiliates-all .product-content .row {
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
-#solutions-all .vital-records {
+#solutions-all .vital-records, .technical-support {
   background-color: #DCDCDC;
 }
 
@@ -55,8 +56,7 @@
   background: image-url("medical_records.jpg") no-repeat;
 }
 
-#solutions-all .data-hosting {
-
+#solutions-all .data-hosting, .affiliates {
   background-color: #C1C1C1;
 }
 
@@ -64,16 +64,8 @@
   background: image-url("servers.jpg") no-repeat;
 }
 
-#solutions-all .technical-support {
-  background-color: #DCDCDC;
-}
-
 .technical-support .product-image {
   background: image-url("it-support.jpg") no-repeat;
-}
-
-#solutions-all .affiliates {
-  background-color: #C1C1C1;
 }
 
 .affiliates .product-image {
@@ -81,11 +73,11 @@
 
 }
 
-#solutions-all .product-text {
+#solutions-all .product-text, #affiliates-all .product-text {
   padding: 2% 10%;
 }
 
-#solutions-all .product-image {
+#solutions-all .product-image, #affiliates-all .product-image {
   height: 50vh;
   width: 100%;
   padding: 0;
@@ -97,7 +89,7 @@
 
 }
 
-.product-image-hover {
+.product-image:hover {
   // opacity: 0.7;
   filter:brightness(130%);
 }
