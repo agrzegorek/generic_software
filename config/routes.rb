@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 	get 'solutions/technical-support', to: "solutions#technical_support"
 	get 'solutions/data-hosting', to: "solutions#data_hosting"
 	get 'contact', to: "contact#index"
-	get 'affiliates', to: "affiliates#index"
+	get 'industries', to: "industries#index"
 	get 'legal', to: "legal#index"
 
 end

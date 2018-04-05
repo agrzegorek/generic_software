@@ -1,6 +1,6 @@
-//Much of the css for the affiliates page is on the solutions css page
+//Much of the css for the industry page is on the solutions css page
 
-.affiliates-banner {
+.industry-banner {
   background:  linear-gradient(
       rgba(66, 134, 244, 0.8), 
       rgba(66, 134, 244, 0.8)
@@ -8,42 +8,35 @@
   
 }
 
-#affiliates-all .go-certs, .bbg, .H-A, .go-smart {
+#industry-all .family, .baby_jokes, .law {
 	background-color: #DCDCDC;
 }
 
-#affiliates-all .nck, .go-host, .go-pets, .prestine {
+#industry-all .wedding, .server, .pets {
 	background-color: #C1C1C1;
 }
 
-.go-certs .product-image {
+.family .product-image {
 	background: image-url("family.jpg") no-repeat;
 }
 
-.nck .product-image {
+.wedding .product-image {
 	background: image-url("vows.jpg") no-repeat;
 }
 
-.go-host .product-image {
+.server .product-image {
 	background: image-url("server2.jpg") no-repeat;
 }
 
-.bbg .product-image {
+.baby_jokes .product-image {
 	background: image-url("baby.jpg") no-repeat;
 }
 
-.H-A .product-image {
+.law .product-image {
 	background: image-url("calc.jpg") no-repeat;
 }
 
-.go-pets .product-image {
+.pets .product-image {
 	background: image-url("pets.jpg") no-repeat;
 }
 
-.go-smart .product-image {
-	background: image-url("planes.jpg") no-repeat;
-}
-
-.prestine .product-image {
-	background: image-url("apartments.jpg") no-repeat;
-}

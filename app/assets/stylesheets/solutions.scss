@@ -10,23 +10,23 @@
   background-position-y: bottom;
 }
 
-#solutions-intro, #affiliates-intro {
+#solutions-intro, #industry-intro {
   width: 100%;
   background-size: cover;
   padding: 50px;
 }
 
-#solutions-all, #affiliates-all {
+#solutions-all, #industry-all {
   width: 100%;
   background-size: cover;
 }
 
-#solutions-all .solutions-all-box, #affiliates-all .affiliates-all-box {
+#solutions-all .solutions-all-box, #industry-all .industry-all-box {
   padding: 0;
   margin: 0;
 }
 
-#solutions-all, #affiliates-all .product-content {
+#solutions-all, #industry-all .product-content {
   width: 100%;
   height: 50%;
   overflow: hidden;
@@ -42,7 +42,7 @@
   }
 }
 
-#solutions-all .product-content .row, #affiliates-all .product-content .row {
+#solutions-all .product-content .row, #industry-all .product-content .row {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -56,7 +56,7 @@
   background: image-url("medical_records.jpg") no-repeat;
 }
 
-#solutions-all .data-hosting, .affiliates {
+#solutions-all .data-hosting, .industry {
   background-color: #C1C1C1;
 }
 
@@ -68,16 +68,16 @@
   background: image-url("it-support.jpg") no-repeat;
 }
 
-.affiliates .product-image {
+.industry .product-image {
   background: image-url("network.jpg") no-repeat;
 
 }
 
-#solutions-all .product-text, #affiliates-all .product-text {
+#solutions-all .product-text, #industry-all .product-text {
   padding: 2% 10%;
 }
 
-#solutions-all .product-image, #affiliates-all .product-image {
+#solutions-all .product-image, #industry-all .product-image {
   height: 50vh;
   width: 100%;
   padding: 0;
