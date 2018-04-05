@@ -119,6 +119,11 @@ $zoomAmount: 1.1;
   display: table-cell;
   margin: 60px;
   padding: 60px;
+  font-size: 1.3em;
+
+  p {
+  padding-right: 30%;
+  }
 
 }
 
@@ -196,11 +201,6 @@ $zoomAmount: 1.1;
 
 #solutions .product-icon {
   margin: 30px;
-}
-
-#solutions .product-button {
-  display: table-cell;
-  vertical-align: bottom;
 }
 
 #solutions .product-description {
