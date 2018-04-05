@@ -23,13 +23,13 @@ h2.core-title {
 }
 
 // overview
-#overview {
+#core-overview {
 	margin: 0;
 	padding-bottom: 20px;
 	background: linear-gradient(to right,rgba(66, 134, 244, 0.1), rgba(66, 134, 244, 0.05), rgba(66, 134, 244, 0.1));
 }
 
-#overview .core-image-area {
+#core-overview .core-image-area {
 	width: 100%;
 	padding: 0;
 	overflow: hidden;
@@ -118,7 +118,6 @@ $faq-core-background-color: #BCE3EC;
 	width: 100%;
 	background-size: cover;
 	background-color: $faq-core-background-color;
-	// background: linear-gradient(to right,rgba(66, 134, 244, 0.1), rgba(66, 134, 244, 0.05), rgba(66, 134, 244, 0.1));
 }
 
 #faq-core .row {
