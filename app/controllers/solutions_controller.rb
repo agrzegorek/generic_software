@@ -6,26 +6,25 @@ class SolutionsController < ApplicationController
   def core
   end
 
-  def birth
+  def analytics
   end
 
-  def death
+  def accessibility
   end
 
-  def marriage
+  def payment
+    render :payment
   end
 
-  def divorce
+  def block
+    render :block
   end
 
-  def fetal_death
+  def mobile
+    render :mobile
   end
 
-  def ITOP
-  end
-
-  def fee
-  	render :fee
+  def security
   end
 
   def technical_support
