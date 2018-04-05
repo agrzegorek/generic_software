@@ -3,7 +3,7 @@ $(document).ready(function(){
 	// Initiate the wowjs
   	new WOW().init();
 	
-	// =====Solutions NavBar Hover Function======
+	// Solutions NavBar Hover Function
 	$(".nav-tabs li").hover(function() {
 		$(this).parent().children().removeClass("active");
 		$(this).toggleClass("active");
@@ -30,8 +30,8 @@ $(document).ready(function(){
 	});
 
 
-	// Module Card Hover
-	$('.module-card').hover(function(){
+	// Plugin Card Hover
+	$('.plugin-card').hover(function(){
 		$(this).toggleClass("card-shadow");
 	});
 
