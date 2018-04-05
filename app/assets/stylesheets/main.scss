@@ -117,7 +117,8 @@ $zoomAmount: 1.1;
 
 #welcome .container {
   display: table-cell;
-  margin: 60px;
+  width: 100%;
+  background-size: cover;
   padding: 60px;
   font-size: 1.3em;
 
@@ -147,7 +148,8 @@ $zoomAmount: 1.1;
 
 #solutions .container {
   display: table-cell;
-  margin: 0 40px 0 40px;
+  width: 100%;
+  background-size: cover;
   padding: 20px;
   color: #3B6584;
 

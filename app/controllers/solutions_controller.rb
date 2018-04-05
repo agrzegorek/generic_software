@@ -3,7 +3,7 @@ class SolutionsController < ApplicationController
   def index
   end
 
-  def vital_records
+  def core
   end
 
   def birth
@@ -26,13 +26,6 @@ class SolutionsController < ApplicationController
 
   def fee
   	render :fee
-  end
-
-  def security
-    render :security
-  end
-
-  def interoperability
   end
 
   def technical_support
