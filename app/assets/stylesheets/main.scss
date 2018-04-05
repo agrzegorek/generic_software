@@ -376,3 +376,16 @@ a.contact-us-link:hover {
   margin-top: -40px;
 }
 
+// ------------------
+// Legal
+// ------------------
+.legal-banner {
+  background: linear-gradient(to right, rgba(199, 0, 57, 0.05),rgba(199, 0, 57, 0.5)), image_url("lodyas.png") repeat;
+}
+
+#legal .container {
+  padding: 30px 0;
+  width: 100;
+  background-size: cover;
+
+}
